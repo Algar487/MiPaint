@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".PantallaDibujo">
         </activity>
+        <service android:name=".MusicService">
+        </service>
     </application>
 
 </manifest>
