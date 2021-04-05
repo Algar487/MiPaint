@@ -15,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void abrirListadoCoches(View view) {
-
+    public void abrirPantallaDibujo(View view) {
         Intent i = new Intent(this, PantallaDibujo.class);
         startActivity(i);
     }
