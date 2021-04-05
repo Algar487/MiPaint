@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MiPaint</string>
+    <string name="nuevo_dibujo">Nuevo dibujo</string>
 </resources>
