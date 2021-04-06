@@ -23,6 +23,11 @@ public class PantallaDibujo extends AppCompatActivity {
         paintView.init(metrics);
     }
 
+    public void volverInicio(View view) {
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+    }
+
 
 
 }

@@ -17,7 +17,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="100sp"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -27,28 +27,28 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton"
+                    android:id="@+id/imageButtonRed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/red" />
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/imageButtonBlue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/blue" />
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/imageButtonGreen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/green" />
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/imageButtonOrange"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -63,18 +63,45 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:id="@+id/imageButton7"
+                    android:id="@+id/imageButtonFace"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="55sp"
                     app:srcCompat="@drawable/alejandro_mini" />
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/imageButtonStar"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="55sp"
                     app:srcCompat="@drawable/star_blue_mini" />
             </LinearLayout>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonVolver"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#1E2B73"
+                android:text="@string/volver"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:onClick="volverInicio"/>
+
+            <Button
+                android:id="@+id/buttonBorrar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#3D3E3E"
+                android:text="@string/borrar"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
         </LinearLayout>
 
     </LinearLayout>
