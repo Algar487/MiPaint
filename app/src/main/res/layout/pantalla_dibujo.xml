@@ -70,12 +70,14 @@
                     android:id="@+id/imageButtonFace"
                     android:layout_width="match_parent"
                     android:layout_height="55sp"
+                    android:onClick="pincelCara"
                     app:srcCompat="@drawable/alejandro_mini" />
 
                 <ImageButton
                     android:id="@+id/imageButtonStar"
                     android:layout_width="match_parent"
                     android:layout_height="55sp"
+                    android:onClick="pincelEstrella"
                     app:srcCompat="@drawable/star_blue_mini" />
             </LinearLayout>
 

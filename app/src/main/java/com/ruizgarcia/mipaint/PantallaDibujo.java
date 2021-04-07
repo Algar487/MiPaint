@@ -60,5 +60,21 @@ public class PantallaDibujo extends AppCompatActivity {
         paintView.init(metrics);
     }
 
+    public void pincelEstrella(View view) {
+        paintView.star();
+        /*DisplayMetrics metrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        paintView.init(metrics);*/
+    }
+
+    public void pincelCara(View view) {
+        paintView.face();
+        /*DisplayMetrics metrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        paintView.init(metrics);*/
+    }
+
+
+
 
 }
