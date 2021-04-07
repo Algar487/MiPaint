@@ -28,8 +28,36 @@ public class PantallaDibujo extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void limpiarDibujo(View view){
+    public void limpiarDibujo(View view) {
         paintView.clear();
+    }
+
+    public void pincelRojo(View view) {
+        paintView.changeColorToRed();
+        DisplayMetrics metrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        paintView.init(metrics);
+    }
+
+    public void pincelAzul(View view) {
+        paintView.changeColorToBlue();
+        DisplayMetrics metrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        paintView.init(metrics);
+    }
+
+    public void pincelNaranja(View view) {
+        paintView.changeColorToOrange();
+        DisplayMetrics metrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        paintView.init(metrics);
+    }
+
+    public void pincelVerde(View view) {
+        paintView.changeColorToGreen();
+        DisplayMetrics metrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        paintView.init(metrics);
     }
 
 

@@ -20,7 +20,8 @@ import java.util.ArrayList;
 public class PaintView extends View {
 
     public static int BRUSH_SIZE = 20;
-    public final int DEFAULT_COLOR = getResources().getColor(R.color.red);
+    public int DEFAULT_COLOR = getResources().getColor(R.color.red);
+    public int RED_COLOR = getResources().getColor(R.color.red);
     public final int BLUE_COLOR = getResources().getColor(R.color.blue);;
     public final int ORANGE_COLOR = getResources().getColor(R.color.orange);;
     public final int GREEN_COLOR = getResources().getColor(R.color.green);;
@@ -95,6 +96,27 @@ public class PaintView extends View {
         normal();
         invalidate();
     }
+
+    public void changeColorToRed() {
+        DEFAULT_COLOR=RED_COLOR;
+        invalidate();
+    }
+    public void changeColorToBlue() {
+        DEFAULT_COLOR=BLUE_COLOR;
+        invalidate();
+    }
+
+    public void changeColorToOrange() {
+        DEFAULT_COLOR=ORANGE_COLOR;
+        invalidate();
+    }
+
+    public void changeColorToGreen() {
+        DEFAULT_COLOR=GREEN_COLOR;
+        invalidate();
+    }
+
+
 
     @Override
     protected void onDraw(Canvas canvas) {

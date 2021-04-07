@@ -31,6 +31,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:onClick="pincelRojo"
                     app:srcCompat="@drawable/red" />
 
                 <ImageButton
@@ -38,6 +39,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:onClick="pincelAzul"
                     app:srcCompat="@drawable/blue" />
 
                 <ImageButton
@@ -45,6 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:onClick="pincelVerde"
                     app:srcCompat="@drawable/green" />
 
                 <ImageButton
@@ -52,6 +55,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:onClick="pincelNaranja"
                     app:srcCompat="@drawable/orange" />
 
             </LinearLayout>
