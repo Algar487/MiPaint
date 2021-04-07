@@ -5,8 +5,8 @@ import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.IBinder;
 
+//Servicio para reproducir música
 public class MusicService extends Service {
-
 
     private MediaPlayer player;
 
@@ -18,10 +18,10 @@ public class MusicService extends Service {
 
     @Override
     public void onCreate() {
+        //cancion elegida: Moby-Porcelain
         player = MediaPlayer.create(this, R.raw.porcelain);
         player.setLooping(true);
         player.start();
-
     }
 
     @Override

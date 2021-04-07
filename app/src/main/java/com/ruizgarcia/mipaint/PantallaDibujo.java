@@ -15,7 +15,6 @@ public class PantallaDibujo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.pantalla_dibujo);
         paintView = (PaintView) findViewById(R.id.paintView);
         DisplayMetrics metrics = new DisplayMetrics();
@@ -62,19 +61,10 @@ public class PantallaDibujo extends AppCompatActivity {
 
     public void pincelEstrella(View view) {
         paintView.star();
-        /*DisplayMetrics metrics = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(metrics);
-        paintView.init(metrics);*/
     }
 
     public void pincelCara(View view) {
         paintView.face();
-        /*DisplayMetrics metrics = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(metrics);
-        paintView.init(metrics);*/
     }
-
-
-
 
 }
