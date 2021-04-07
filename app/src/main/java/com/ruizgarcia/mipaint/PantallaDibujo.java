@@ -28,6 +28,9 @@ public class PantallaDibujo extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void limpiarDibujo(View view){
+        paintView.clear();
+    }
 
 
 }

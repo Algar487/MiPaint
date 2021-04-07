@@ -99,6 +99,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:backgroundTint="#3D3E3E"
+                android:onClick="limpiarDibujo"
                 android:text="@string/borrar"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp" />

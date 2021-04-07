@@ -20,7 +20,12 @@ import java.util.ArrayList;
 public class PaintView extends View {
 
     public static int BRUSH_SIZE = 20;
-    public static final int DEFAULT_COLOR = Color.RED;
+    public final int DEFAULT_COLOR = getResources().getColor(R.color.red);
+    public final int BLUE_COLOR = getResources().getColor(R.color.blue);;
+    public final int ORANGE_COLOR = getResources().getColor(R.color.orange);;
+    public final int GREEN_COLOR = getResources().getColor(R.color.green);;
+
+
     public static final int DEFAULT_BG_COLOR = Color.WHITE;
     private static final float TOUCH_TOLERANCE = 4;
     private float mX, mY;
