@@ -113,38 +113,50 @@ public class PaintView extends View {
 
     //cambiar color a rojo
     public void changeColorToRed() {
-        normal();
         backgroundColor = DEFAULT_BG_COLOR;
         DEFAULT_COLOR = RED_COLOR;
         posicionesEstrella.clear();
         posicionesCara.clear();
+        if (star||face){
+            paths.clear();
+        }
+        normal();
         invalidate();
     }
 
     //cambiar color a azul
     public void changeColorToBlue() {
-        normal();
         DEFAULT_COLOR = BLUE_COLOR;
         posicionesEstrella.clear();
         posicionesCara.clear();
+        if (star||face){
+            paths.clear();
+        }
+        normal();
         invalidate();
     }
 
     //cambiar color a naranja
     public void changeColorToOrange() {
-        normal();
         DEFAULT_COLOR = ORANGE_COLOR;
         posicionesEstrella.clear();
         posicionesCara.clear();
+        if (star||face){
+            paths.clear();
+        }
+        normal();
         invalidate();
     }
 
     //cambiar color a verde
     public void changeColorToGreen() {
-        normal();
         DEFAULT_COLOR = GREEN_COLOR;
         posicionesEstrella.clear();
         posicionesCara.clear();
+        if (star||face){
+            paths.clear();
+        }
+        normal();
         invalidate();
     }
 
