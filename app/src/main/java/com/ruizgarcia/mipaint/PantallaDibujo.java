@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
 
-//Clase que gestiona la actividad principal de la aplicación. En este caso es muy sencilla
+//Clase que inicializa los elementos necesarios de PaintView para que el usuario pueda dibujar
 public class PantallaDibujo extends AppCompatActivity {
 
     private PaintView paintView;
